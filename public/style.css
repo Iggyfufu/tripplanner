@@ -12,3 +12,13 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+.container {
+  display: flex;
+  height: 10vh;
+  width: 10vh;
+  background-color: coral;
+  position: absolute;
+  z-index: 1;
+  justify-content: flex-start;
+}
